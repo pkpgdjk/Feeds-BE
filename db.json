@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "content": "22222",
+      "author": "1",
+      "date": ""
+    },
+    {
+      "content": "test1",
+      "author": "author1",
+      "date": 1621638249664,
+      "id": 2
+    },
+    {
+      "content": "test1",
+      "author": "author1",
+      "date": 1621638533595,
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "some comment",
+      "symbol": "",
+      "author": "1",
+      "date": "",
+      "postId": 1
+    }
+  ],
+  "symbols": [
+    {
+      "id": 1,
+      "symbols": {},
+      "postId": 1
+    }
+  ]
+}
