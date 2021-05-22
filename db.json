@@ -2,37 +2,31 @@
   "posts": [
     {
       "id": 1,
-      "content": "22222",
+      "content": "ทอสอบๆ โพสต์",
       "author": "1",
-      "date": ""
+      "date": 1621638249664
     },
     {
       "content": "test1",
       "author": "author1",
       "date": 1621638249664,
       "id": 2
-    },
-    {
-      "content": "test1",
-      "author": "author1",
-      "date": 1621638533595,
-      "id": 3
     }
   ],
   "comments": [
     {
       "id": 1,
       "content": "some comment",
-      "symbol": "",
+      "symbol": "AA",
       "author": "1",
-      "date": "",
+      "date": 1621638249664,
       "postId": 1
     }
   ],
   "symbols": [
     {
       "id": 1,
-      "symbols": {},
+      "symbols": {"a":"AA"},
       "postId": 1
     }
   ]
