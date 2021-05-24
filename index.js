@@ -20,6 +20,9 @@ server.post("/comments", (req, res, next) => {
     let _db = {...db}
 
     let allSymbol = _db.symbols.find(item => item.postId === req.body.postId)
+    
+    
+    let isAuthor = _db.posts.find(item => item.id == req.body.postId && item.author == req.body.author)
 
     // create symbol if not exits
     if (!allSymbol) {
@@ -32,7 +35,9 @@ server.post("/comments", (req, res, next) => {
     }
 
     // random symbol if user not exits
-    if (!allSymbol.symbols[req.body.author]){
+    if (isAuthor) {
+        req.body.symbol = '🎃'
+    }else if (!allSymbol.symbols[req.body.author]){
         let s = randomSymbol(Object.values(allSymbol.symbols))
         allSymbol.symbols[req.body.author] = s
         req.body.symbol = s

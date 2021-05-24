@@ -5,19 +5,37 @@
       "content": "ทอสอบๆ โพสต์",
       "author": "1",
       "date": 1621638249664
-    },
-    {
-      "content": "test1",
-      "author": "author1",
-      "date": 1621638249664,
-      "id": 2
     }
   ],
   "comments": [
     {
       "id": 1,
-      "content": "some comment",
-      "symbol": "AA",
+      "content": "comment1",
+      "symbol": "😱",
+      "author": "1",
+      "date": 1621638249664,
+      "postId": 1
+    },
+    {
+      "id": 1,
+      "content": "comment2",
+      "symbol": "😱",
+      "author": "1",
+      "date": 1621638249664,
+      "postId": 1
+    },
+    {
+      "id": 1,
+      "content": "comment3",
+      "symbol": "😱",
+      "author": "1",
+      "date": 1621638249664,
+      "postId": 1
+    },
+    {
+      "id": 1,
+      "content": "comment4",
+      "symbol": "😱",
       "author": "1",
       "date": 1621638249664,
       "postId": 1
@@ -26,7 +44,7 @@
   "symbols": [
     {
       "id": 1,
-      "symbols": {"a":"AA"},
+      "symbols": {"a":"😱"},
       "postId": 1
     }
   ]
